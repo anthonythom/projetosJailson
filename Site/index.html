@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>NODESHOP</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-bag-check-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"
+          />
+        </svg>
+        <h1
+          style="
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+              'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          "
+        >
+          NODESHOP
+        </h1>
+      </div>
+
+      <div class="pesquisa">
+     <input class="input-pesquisa" placeholder="Faça uma busca" type="search" name="" id="" />
+ <div class="btn-s"> <a href="">
+  
+  <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-search"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+          />
+        </svg></a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="menu-nav">
+      <div class="navigator">
+        <p>Home</p>
+        <p>Produtos</p>
+        <p>Serviços</p>
+        <p>Contato</p>
+      </div>
+      <div class="social">
+        <a href="">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-facebook"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+          />
+        </svg></a>
+<a href="">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-twitter"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+          />
+        </svg></a>
+<a href="">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-google"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"
+          />
+        </svg></a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="title-main">
+        <h2 style="font-size: 30px; font-weight: 500">Sobre nós</h2>
+      </div>
+
+      <div class="imgbody">
+        <img
+          src="./img/fotocorpo.jpg"
+          width="350"
+          height="250px"
+          style="float: left"
+        />
+        <p> <div style="width: 70%; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-left: 30%;" >laborum Lorem ipsum dolor sit amet consectetur adipisicing eli turi
+        officia sunt, blanditiis assumenda natus qui, necessitatibus h turi
+        officia sunt, blanditiis assumenda natus qui, necessitatibus h turi
+        officia sunt, blanditiis assumenda natus qui, necessitatibus ht. Labore
+        nam asperiores excepturi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus hic explicabo voluptatum delectus molestias nisi. Iusto
+        reprehenderit aliquam magnam deleniti. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Cum, quas. Iste hic distinctio nesciunt,
+        unde velit explicabo, aut accusantium quibusdam dolorem impedit repellat
+        est similique enim! Optio architecto sed eos. lestiae debitis possimus,
+        molestias voluptatem eaque. Maxime velit quidem modi tenetur optio totam
+        repudiandae . turi officia sunt, blanditiis assumenda natus qui,
+        neces
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus ht. Labore</div>
+        
+        <br> <br> <br> <br> <br> 
+        <div style="width: 100%; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px" >
+        nam asperiores excepturi officia sunt,
+        blanditiis assumenda natus qui, necessitatibus hic explicabo voluptatum
+        delectus molestias nisi. Iusto reprehenderit aliquam magnam deleniti.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, quas.
+        Iste hic distinctio nesciunt, unde velit explicabo, aut accusantium
+        quibusdam dolorem impedit repellat est similique enim! Optio architecto
+        sed eos. lestiae debitis possimus, molestias voluptatem eaque. Maxime
+        velit quidem modi tenetur optio totam repudiandae . turi officia sunt,
+       ht. Labore nam asperiores
+        excepturi officia sunt, blanditiis assumenda natus qui, necessitatibus
+        hic explicabo voluptatum delectus molestias nisi. Iusto reprehenderit
+        aliquam magnam deleniti. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Cum, quas. Iste hic distinctio nesciunt, unde velit
+        explicabo, aut accusantium quibusdam dolorem impedit repellat est
+        similique enim! Optio architecto sed eos. lestiae debitis possimus,
+        molestias voluptatem eaque. Maxime velit quidem modi tenetur optio totam
+        repudiandae . turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        necessitatibus h turi officia sunt, blanditiis assumenda natus qui,
+        
+        explicabo, aut accusantium quibusdam dolorem impedit repellat est
+        <br>
+        <br><br>
+     </div></p>
+        
+        
+      </div>
+    </main>
+
+    <aside>
+      <h2
+        style="
+          font-size: 30px;
+          font-weight: 500;
+          margin-left: 20px;
+          margin-top: 10px;
+        "
+      >
+        Onde estamos
+      </h2>
+      <p style="font-size: 15px; margin-left: 20px; margin-top: 10px">
+        Av. jucá Leão - Centro Comercial, Itabuna - BA
+      </p>
+      <div style="margin-left: 25px; margin-top: 20px">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.122705982621!2d-46.69439032375377!3d-23.528088660372433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1692380356071!5m2!1spt-BR!2sbr"
+          width="300"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h2 style="font-size: 30px; font-weight: 500; margin-top: 10px">
+          Contatos
+        </h2>
+        <div class="contatos"> <p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-telephone-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            />
+          </svg>
+         (73) 919173350</p>
+<p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+            />
+          </svg>
+          (73) 919173350</p>
+<p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-envelope-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+            />
+          </svg>
+          anthonythomascontato@gmail.com</p>
+        </div>
+      </div>
+    </aside>
+
+    <div class="news">
+      <div class="news-text">
+        <h2 style="font-size: 35px">Newsletter</h2>
+        <p style="font-size: 20px">Receba nossas promoções por email</p>
+      </div>
+      <div class="news-input">
+        <input type="nome" placeholder="Seu nome" class="input-nome" />
+        <input
+          type="email"
+          placeholder="Seu email"
+          name=""
+          class="input-email"
+        />
+        <button class="input-btn">Cadastrar</button>
+      </div>
+    </div>
+
+    <footer>
+      <p style="margin-left: 50px">@ NodeShop - Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
