@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Netflix</title>
+  </head>
+  <body class="bg-black">
+    <div class="nome text-center">
+      <h1>Netlix</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Netlix</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Filmes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Opções</a></li>
+                  <li><a class="dropdown-item" href="#">Comédia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Animação</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Séries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Opções</a></li>
+                  <li><a class="dropdown-item" href="#">Comédia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Animação</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn " type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/ratatuile.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tatarugas.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/up.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+    <div class="container text-light">
+      <h2>Filmes</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+      <div class="col">
+        <img src="./img/andrew.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/harry.png"  class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/interestelar.png"   class="img-fluid" alt="" />
+      </div>
+      <div class="col">
+        <img src="./img/crepusculo.png"   class="img-fluid" alt="" />
+      </div>
+    </div>
+
+<br><br>
+
+    <div class="container text-light">
+        <h2>Séries</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+      <div class="col">
+        <img src="./img/sexeducation.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/euphoria.png"  class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/teen.png"   class="img-fluid" alt="" />
+      </div>
+      <div class="col">
+        <img src="./img/tvd.png"   class="img-fluid" alt="" />
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container text-light ">
+        <h2>Animações</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+      <div class="col">
+        <img src="./img/spider.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/coraline.png"  class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-3">
+        <img src="./img/casam.png"   class="img-fluid" alt="" />
+      </div>
+      <div class="col">
+        <img src="./img/pinoquio.png"   class="img-fluid" alt="" />
+      </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

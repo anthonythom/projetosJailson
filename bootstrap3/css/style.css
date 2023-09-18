@@ -1,0 +1,15 @@
+
+
+body{
+    background-color: black;
+}
+
+.nome{
+   color: orangered;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+nav{
+    background-color: orangered;
+}
